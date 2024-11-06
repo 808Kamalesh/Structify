@@ -12,5 +12,4 @@ def display_banner():
     """
     console.print(banner)
 
-# Ensure it's only called once in your script
 display_banner()
