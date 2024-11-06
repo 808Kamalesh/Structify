@@ -59,7 +59,6 @@ def main():
         generator.display_tree(output_dir)
 
         stats_table = generator.get_stats_table()
-        console.print("\n")
         console.print(stats_table)
 
     except Exception as e:
