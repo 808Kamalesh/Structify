@@ -56,3 +56,53 @@ MyProjectRoot
     .gitignore
 ```
 
+# Output
+
+```bash
+
+D:\Structify>python structify.py my_structure.txt --output ./my_project
+
+░█▀▀░▀█▀░█▀▄░█░█░█▀▀░▀█▀░▀█▀░█▀▀░█░█
+░▀▀█░░█░░█▀▄░█░█░█░░░░█░░░█░░█▀▀░░█░
+░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░░░░▀░
+
+Output directory: D:\Structify\my_project\MyProjectRoot
+
+Structure File Content:
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ MyProjectRoot                                                                                                                      │
+│     src/                                                                                                                           │
+│         main.py                                                                                                                    │
+│         utils/                                                                                                                     │
+│             helper.py                                                                                                              │
+│     README.md                                                                                                                      │
+│     .gitignore                                                                                                                     │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  Creating project structure... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100%
+
+✨ Project structure created successfully!
+
+Created Project Structure:
+MyProjectRoot
+└── MyProjectRoot
+    ├── .gitignore
+    ├── README.md
+    └── src
+        ├── main.py
+        └── utils
+            └── helper.py
+
+  Project Statistics   
+┏━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Type        ┃ Count ┃
+┡━━━━━━━━━━━━━╇━━━━━━━┩
+│ Files       │ 4     │
+│ Directories │ 3     │
+│ Total Items │ 7     │
+└─────────────┴───────┘
+```
+
+# Author : 808Kamalesh
+
+
+
